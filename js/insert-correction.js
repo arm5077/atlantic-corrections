@@ -16,5 +16,5 @@ for( i=0; i<=number_of_corrections; i++){ asterisks += '*' }
 CKEDITOR.instances.id_content.insertHtml('<a name="' + id + 'text"></a><a href="#' + id + 'correction">' + asterisks + '</a>')
 
 // Add new correction at the bottom
-$(content).find('.correction-div').append('<p><em><a name="' + id + 'correction"></a><a href="#' + id + 'text">' + asterisks + '</a> We regret the error.</em></p>')
+$(content).find('.correction-div').append('<p><small><em><a name="' + id + 'correction"></a><a href="#' + id + 'text">' + asterisks + '</a> We regret the error.</em></small></p>')
   
